@@ -1,0 +1,160 @@
+.par{
+    height: 800px;
+    width: 800px;
+    background-color: red;
+}
+.sub1{
+    height: 800px;
+    width: 200px;
+    background-color:palegoldenrod;
+    float: left;
+}
+.sub2{
+    height: 800px;
+    width: 600px;
+    background-color:olive;
+    float: right;
+}
+.part1{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+}
+.part2{
+    height: 400px;
+    width: 200px;
+    background-color: blue;
+}
+.part3{
+    height: 200px;
+    width: 200px;
+    background-color:pink;
+}
+.part4{
+    height: 200px;
+    width: 600px;
+    background-color: red;
+}
+.part5{
+    height: 200px;
+    width: 600px;
+    background-color:yellow;
+}
+.part6{
+    height: 400px;
+    width: 600px;
+    background-color:brown;
+}
+.part7{
+    height: 400px;
+    width: 150px;
+    background-color: darkblue;
+    float: left;
+}
+.part8{
+    height: 400px;
+    width: 150px;
+    background-color:black;
+    float: left;
+}
+.part9{
+    height: 400px;
+    width: 300px;
+    background-color:gray;
+    float: right;
+}
+.part10{
+    height: 100px;
+    width: 300px;
+    background-color:aqua;
+}
+.part11{
+    height: 300px;
+    width: 300px;
+    background-color:brown;
+}
+.part12{
+    height: 300px;
+    width: 100px;
+    background-color: darkblue;
+    float: left;
+}
+.part13{
+    height: 300px;
+    width: 100px;
+    background-color:black;
+    float: left;
+}
+.part14{
+    height: 300px;
+    width: 100px;
+    background-color:pink;
+    float: right;
+}
+.part15{
+    height: 150px;
+    width: 100px;
+    background-color:yellow;
+}
+.part16{
+    height: 150px;
+    width: 100px;
+    background-color:brown;
+}
+.part17{
+    height: 150px;
+    width: 100px;
+    background-color:orangered;
+}
+.part18{
+    height: 150px;
+    width: 100px;
+    background-color:red;
+}
+.part19{
+    height:150px;
+    width: 50px;
+    background-color: blue;
+}
+.part20{
+    height:150px;
+    width: 50px;
+    background-color: pink;
+}
+.part21{
+    height: 200px;
+    width: 100px;
+    background-color: violet;
+}
+
+
+.part22{
+    height: 200px;
+    width: 400px;
+    background-color: beige;
+    float: left;
+}
+.part25{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    float: left;
+}
+.part26{
+    height:100px;
+    width: 200px;
+    background-color: pink;
+}
+.part27{
+    height: 100px;
+    width: 200px;
+    background-color: violet;
+}
+.part28{
+    height: 100px;
+    width:100px ;
+    background-color: blue;
+    float: right;
+}
+
+

@@ -1,0 +1,165 @@
+#par{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    
+}
+#sub1{
+    height: 50px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+#sub2{
+    height: 95%;
+    width: 100%;
+    background-color:wheat;
+    position: relative;
+}
+#a{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+}
+#b1{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    
+    left: 25%;
+    top: 20px;
+}
+#b2{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    right: 25%;
+    top: 20px;
+    }
+#b3{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    left: 25%;
+    bottom: 20px;
+}
+#b4{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    right: 25%;
+    bottom: 20px;
+}
+#b11{
+    height: 100px;
+    width: 300px;
+    background-color: white;
+}
+#img{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 10px;
+    top: 0px;
+}
+#h3{
+    position: absolute;
+    left: 150px;
+}
+#p{
+    position: absolute;
+    left: 150px;
+    top: 50px;
+}
+#b111{
+    height: 200px;
+    width: 2px;
+    background-color: wheat;
+    position: absolute;
+    top: 100px;
+    left: 60px;
+}
+#b12{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    position: absolute;
+    right: 30px;
+    top: 100px;
+}
+#p1{
+    position: absolute;
+    left:20px;
+    top: 0px;
+}
+#p2{
+    position: absolute;
+    left: 150px;
+    top: 0px;
+}
+#p3{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+#p4{
+    position: absolute;
+    left: 20px;
+    top: 50px;
+}
+#p5{
+    position: absolute;
+    left: 150px;
+    top: 50px;
+}
+#p6{
+    position: absolute;
+    left: 20px;
+    top: 70px;
+}
+#p7{
+    position: absolute;
+    left: 20px;
+    top: 100px;
+}
+#p8{
+    position: absolute;
+    left: 150px;
+    top: 100px;
+}
+#p9{
+    position: absolute;
+    left: 20px;
+    top: 120px;
+}
+#cir{
+    height: 20px;
+    width: 20px;
+    background-color: wheat;
+    border-radius: 10px;
+    position: absolute;
+    left:  50px;
+    top:120px;
+}
+#mak{
+        height: 20px;
+        width: 20px;
+        background-color: wheat;
+        border-radius: 10px;
+        position: absolute;
+        left:  50px;
+        top:170px;
+}
+ #rou{
+            height: 20px;
+            width: 20px;
+            background-color: wheat;
+            border-radius: 10px;
+            position: absolute;
+            left:  50px;
+            top:220px;
+ }

@@ -1,0 +1,38 @@
+.swamy{
+    background-color: blanchedalmond;
+    font-size: 30px;
+    font-style: oblique;
+     color:blue ;
+     border: 10px solid yellow;
+}
+#main{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(76, 16, 16);
+}
+span{
+    color: violet;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+*{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0x;
+    padding: opx;
+}
+input[type]{
+    color: aqua;
+}
+/*a[href]{
+    color: brown;
+    background-color: aquamarine;
+}*/
+a:visited{
+    color:yellow;
+}
+a:hover{
+    color: red;
+}
+a.active{
+    color: green;
+}

@@ -1,0 +1,119 @@
+#par{
+    height: 800px;
+    width: 1200px;
+    background-color: green;
+    position: relative;
+    
+}
+#a{
+    height: 400px;
+    width: 1200px;
+    background-color:lightgray ;
+   
+}
+#b{
+    height: 400px;
+    width: 1200px;
+    background-color: lightslategray;
+}
+#a1{
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    font-size: 20px;
+}
+#a2{
+    font-size: 30px;
+}
+#a3{
+    padding-left: 350px;
+    padding-right: 350px;
+}
+#a4{
+    height: 25px;
+    width: 100px;
+    border-radius: 50px;
+   background-color: blue;
+    text-align: center;
+
+    
+}
+#a4{
+    color: white;
+}
+#a5{
+    font-size: 10px;
+    
+}
+#b1{
+    height: 200px;
+    width: 200px;
+    background-color:white;
+    position: absolute;
+    left: 350px;
+    top: 300px;
+    padding-top: 10px;
+    
+}
+#b2{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    position: absolute;
+    left: 350px;
+    bottom: 70px;
+    
+}
+#b3{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    position: absolute;
+    right: 400px;
+    top: 250px;
+    padding-top: 10px;
+    
+}
+#b4{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    position: absolute;
+    right: 400px;
+    bottom: 70px;
+    
+}
+#b11{
+    font-size: 30px;
+    
+    border-radius: 90px;
+    color: orange;
+    float: left;
+    padding-left: 10px;
+    
+}
+#b12{
+    font-size: 30px;
+    
+    border-radius: 90px;
+    color: darkviolet;
+    float: left;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+#b13{
+    font-size: 30px;
+    padding-left: 10px;
+    border-radius: 90px;
+   color:darkcyan;
+    float: left;
+}
+#b14{
+    font-size: 30px;
+    color: red;
+    border-radius: 90px;
+    float: left;
+    padding-left: 10px;
+}
+
+

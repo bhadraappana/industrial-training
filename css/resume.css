@@ -1,0 +1,204 @@
+
+#par{
+    height: 800px;
+    width: 800px;
+    background-color: yellow;
+}
+#sub1{
+    height: 800px;
+    width: 300px;
+    float: left;
+    background-color: darkgray;
+    position: relative;
+}
+#sub2{
+    height: 800px;
+    width: 500px;
+    float: right;
+    background-color: lightgreen;
+    position: relative;
+}
+#a{
+    height: 150px;
+    width:150px;
+   
+    border: 10px solid rebeccapurple;
+    position:absolute;
+    top:20px;
+    left: 60px;
+    
+}
+#img{
+    height: 150px;
+    width: 150px;
+}
+#a1{
+    height: 200px;
+    width: 100%;
+    
+    position:absolute;
+    top:200px;
+}
+#ic1{
+    font-size: 20px;
+    background-color: yellow;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+#ic2{
+    font-size: 20px;
+    background-color: yellow;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+#ic3{ font-size: 20px;
+    background-color: yellow;
+    position: absolute;
+    top: 70px;
+    left: 18px;
+}
+#ic4{ font-size: 20px;
+    background-color: yellow;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+}
+ #a11{
+        position: absolute;
+        top: 10px;
+        left: 50px;
+ }
+ #a12{
+     position: absolute;
+        top: 40px;
+        left: 50px;
+}   
+#a13{
+    position: absolute;
+           top: 70px;
+           left: 50px;
+ }    
+ #a14{
+    position: absolute;
+           top: 100px;
+           left: 40px;
+ }  
+ #b1{
+    height: 200px;
+    width: 300px;
+  
+    position: absolute;
+    top:400px;
+    
+ } 
+ h3{
+    position: absolute;
+    left: 20px;
+ }
+
+ #b11{
+    height: 3px;
+    width: 280px;
+    background-color: yellow;
+    position: absolute;
+    left: 20px;
+    right: 0px;
+    top: 40px;
+ }
+ #p1{
+    position: absolute;
+    left:20px ;
+    top: 40px;
+ }
+ #p2{
+    position: absolute;
+    left:20px ;
+    top: 80px;
+ }
+ #p3{
+    position: absolute;
+    left:20px ;
+    top: 120px;
+ }
+ #c1{
+    height: 100px;
+    width: 570px;
+    background-color: orange;
+    position:absolute;
+    right: 0px;
+    top: 50px;
+ }
+ #ch{
+    font-size: 20px;
+    text-align: center;
+ }
+ #sub21{
+    height: 500px;
+    width: 500px;
+   
+    position:absolute;
+    top:200px;
+ }
+ #h5{
+    font-size: 30px;
+    position: absolute;
+    top: 0px;
+    left: 30px;
+ }
+ #sm{
+    height: 3px;
+    width: 470px;
+   background-color: pink; 
+    position:absolute;
+     top:100px;
+     left: 30px;
+ }
+ #ten{
+    position: absolute;
+    top:100px;
+    left: 30px;
+ }
+ #dip{
+    position: absolute;
+    top:140px;
+    left: 30px;
+ }
+ #h{ font-size: 30px;
+    position: absolute;
+    top: 130px;
+    left: 30px;
+}
+ #ski{
+    height: 3px;
+    width:470px;
+    background-color: green;
+    position: absolute;
+    top:220px;
+     left: 30px;
+ }
+ #sk{
+    position:absolute;
+    top: 230px;
+    left: 30px;
+ }
+ #bhadra{
+    font-size: 30px;
+    position: absolute;
+    top: 240px;
+    left: 30px;
+ }
+ #hob{
+    height: 3px;
+    width:470px;
+    background-color: red;
+    position: absolute;
+    top:330px;
+ left: 30px;
+ }
+ #ho{
+    position:absolute;
+    top: 330px;
+    left: 30px;
+ }

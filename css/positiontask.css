@@ -1,0 +1,375 @@
+#par{
+    height: 600px;
+    width: 1200px;
+    background-color: blueviolet;
+}
+#sub1{
+    height: 300px;
+    width: 1200px;
+    background-color: brown;
+   
+}
+#sub2{
+    height: 300px;
+    width: 1200px;
+   background-color: yellow;
+   
+}
+#a{
+    height: 300px;
+    width: 300px;
+    background-color: rebeccapurple;
+    float: left;
+}
+#b{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    float: left;
+    
+}
+#c{
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    float: left;
+}
+#d{
+    height: 300px;
+    width: 300px;
+    background-color: cyan;
+    float: right;
+}
+#e{
+    height: 300px;
+    width: 300px;
+    background-color:orangered;
+    float: left;
+}
+#f{
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    float: left;
+}
+#g{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    float: left;
+}
+#h{
+    height: 300px;
+    width: 300px;
+    background-color: rebeccapurple;
+    float: right;
+}
+#a1{
+    height: 200px;
+    width: 200px;
+    border: 1px solid red;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#a11{
+    height: 200px;
+    width: 100px;
+    background-color: black;
+    float: left;
+}
+#a12{
+    height: 200px;
+    width: 100px;
+    background-color: white;
+    float: left;
+}
+#a111{
+    height:66.6px ;
+    width:100px;
+    background-color: pink;
+    position: static;
+}
+#a112{
+    height:66.6px ;
+    width:100px;
+    background-color: green;
+}
+#a113{
+    height:66.6px ;
+    width:100px;
+    background-color: orangered;
+}
+#b1{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#b12{
+    height: 200px;
+    width: 100px;
+    background-color: white;
+    float: left;
+}
+#b111{
+    height:66.6px ;
+    width:100px;
+    background-color: rebeccapurple;
+}
+#b112{
+    height:66.6px ;
+    width:100px;
+    background-color: cyan;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+    #relative{
+        text-align: center;
+
+    }
+
+#b113{
+    height:66.6px ;
+    width:100px;
+    background-color: yellow;
+}
+#c1{
+    height: 200px;
+    width: 200px;
+    border: 1px solid red;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#c11{
+    height: 200px;
+    width: 100px;
+    background-color: orangered;
+    float: left;
+}
+#c12{
+    height:200px;
+    width: 100px;
+    background-color: palevioletred;
+    float: right;
+    
+}
+#c111{
+    height:66.6px ;
+    width:100px;
+    background-color: rebeccapurple;
+}
+#c112{
+    height: 66.6px;
+    width: 100px;
+    background-color: aqua;
+    position: absolute;
+    top:115px;
+    left: 729px;
+    text-align: center;
+}
+
+#c121{
+    height:66.6px ;
+    width:100px;
+    background-color: white;
+}
+#c122{
+    height:66.6px ;
+    width:100px;
+    background-color: rebeccapurple;
+}
+#c123{
+    height:66.6px ;
+    width:100px;
+    background-color:white;
+}
+#d1{
+    height: 200px;
+    width: 200px;
+    border: 1px solid red;
+    margin-left: 20px;
+    margin-top: 20px;
+   
+}
+#d11{
+    height: 200px;
+    width: 100px;
+    background-color: red;
+    float: left;
+    
+}
+#d111{
+    height: 66.6px;
+    width: 100px;
+    background-color:royalblue;
+   
+}
+#d112{
+    height: 66.6px;
+    width: 100px;
+    background-color:yellowgreen;
+    text-align: center;
+}
+#e1{
+    height: 200px;
+    width: 200px;
+    border: 1px solid red;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    overflow-x: auto;
+    overflow-y: auto;
+    overflow: scroll;
+    
+}
+#e11{
+    height: 200px;
+    width: 100px;
+    background-color: tomato;
+    float: left;
+    position: sticky;
+    top: 0px;
+    
+}
+#e111{
+    height: 66.6px;
+    width: 100px;
+    background-color: blue;
+    position: sticky;
+    top:0px;
+    left: 0px;
+    
+   
+}
+#e112{
+    height: 66.6px;
+    width: 100px;
+    background-color: violet;
+    
+}
+#e113{
+    height: 66.6px;
+    width: 100px;
+    background-color: green;
+}
+#e114{
+    height: 66.6px;
+    width: 100px;
+    background-color: pink;
+}
+
+#static{
+    height: 66.6px;
+    width: 100px;
+    background-color: cyan;
+    position: static;
+    top:10px;
+}
+#f1{
+    height: 200px;
+    width: 200px;
+    border: 1px solid red;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    overflow: scroll;
+}
+#f11{
+    height: 200px;
+    width: 100px;
+    background-color: tomato;
+    float: left;
+}
+#e111{
+    height: 66.6px;
+    width: 100px;
+    background-color: red;
+    position: sticky;
+    top:0px;
+    left: 0px;
+}
+    #f111{
+        height: 66.6px;
+        width: 100px;
+        background-color: cyan;
+        
+    }
+        #f112{
+            height: 66.6px;
+            width: 100px;
+            background-color: greenyellow;
+            
+        }
+            #f113{
+                height: 66.6px;
+                width: 100px;
+                background-color: blue;
+                
+            }
+            
+            #f114{
+                height: 66.6px;
+                width: 100px;
+                background-color: gray;
+                position: sticky;
+                left: 0px;
+                bottom: 0px;
+                
+            }
+            #g1{
+                height: 200px;
+                width: 250px;
+                border: 1px solid red;
+                background-color: white;
+                margin-left: 20px;
+                margin-top: 20px;
+                overflow: scroll;
+            }
+           #g11{
+            height: 100px;
+            width: 200px;
+            float: left;
+            border: 1px solid red;
+           }
+           #g111{
+            height: 100px;
+            width: 66.6px;
+            background-color: black;
+            float: left;
+            position: sticky;
+            left: 0px;
+            top: 0px;
+            
+           }
+           #g112{
+            height: 100px;
+            width: 66.6px;
+            background-color: blue;
+            float: left;
+            
+           }
+           #g113{
+            height: 100px;
+            width: 66.6px;
+            background-color: cyan;
+            float: left;
+           }
+           
+          
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+

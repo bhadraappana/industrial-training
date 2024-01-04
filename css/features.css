@@ -1,0 +1,104 @@
+#par{
+    height: 800px;
+    width: 1000px;
+    background-color: blueviolet;
+}
+#sub1{
+    height: 100px;
+    width: 1000px;
+    background-color: blueviolet;
+}
+h4{
+    color: white;
+}
+h2{
+    color: white;
+}
+#sub2{
+    height:350px ;
+    width: 1000px;
+    background-color: blueviolet;
+    position:relative;
+}
+#sub3{
+    height:350px ;
+    width: 1000px;
+    background-color: blueviolet;
+    position:relative;
+}
+#sub21{
+    height: 300px;
+    width: 250px;
+    background-color: white;
+   border-radius: 20px;
+   position: absolute;
+   left: 20px;
+   top: 20px;
+}
+#sub22{
+    height: 300px;
+    width: 250px;
+    background-color: white;
+   border-radius: 20px;
+   position: absolute;
+   left: 310px;
+   top: 20px;
+}
+#sub23{
+    height: 300px;
+    width: 250px;
+    background-color: white;
+   border-radius: 20px;
+   position: absolute;
+   left: 600px;
+   top: 20px;
+}
+#sub33{
+    height: 300px;
+    width: 250px;
+    background-color: white;
+   border-radius: 20px;
+   position: absolute;
+   left: 600px;
+   top: 20px;
+}
+#sub32{
+    height: 300px;
+    width: 250px;
+    background-color: white;
+   border-radius: 20px;
+   position: absolute;
+   left: 310px;
+   top: 20px;
+}
+#sub31{
+    height: 300px;
+    width: 250px;
+    background-color: white;
+   border-radius: 20px;
+   position: absolute;
+   left: 20px;
+   top: 20px;
+}
+#img{
+    height: 150px;
+    width: 150px;
+}
+#h5{
+    font-size: 15px;
+    color: blueviolet;
+}
+#a1{
+    height: 20px;
+    width: 50px;
+    background-color: blueviolet;
+    position: relative;
+    border-radius: 10px;
+}
+#a2{
+    height: 20px;
+    width: 50px;
+    background-color: blue;
+    border-radius: 10px;
+}
+
