@@ -1,0 +1,152 @@
+#one{
+    height: 250px;
+    width: 200px;
+    background-color: bisque;
+    float: left;
+    border: 1px solid black;
+    margin-right: 20px;
+   }
+#one:hover{
+    transform: translate3d(40px,80px,100px);
+}
+#two{
+    height: 250px;
+    width: 200px;
+    background-color: red;
+    float: left;
+    border: 1px solid black;
+    margin-right: 20px;
+}
+#two:hover{
+    transform: translateX(40px);
+}
+#three{
+    height: 250px;
+    width: 200px;
+    background-color:orange;
+    float: left;
+    border: 1px solid black;
+    margin-right: 40px;
+}
+#three:hover{
+    transform: translateY(50px);
+}
+#four{
+    height: 250px;
+    width: 200px;
+    background-color: green;
+    float: left;
+    border: 1px solid black;
+    margin-right: 20px;
+}
+#four:hover{
+    transform: rotate(100deg);
+}
+#five{
+    height: 250px;
+    width: 200px;
+    background-color: yellow;
+    float: left;
+    border: 1px solid black;
+    margin-right: 20px;
+/*clockwise:+ve
+anti-clockwise:-ve*/
+}
+#five:hover{
+    transform: rotateX(60deg);
+}
+#six{
+    height: 250px;
+    width: 200px;
+    background-color: violet;
+    float: left;
+    border: 1px solid black;
+    margin-right: 20px;
+}
+#six:hover{
+    transform: rotateY(40deg);
+}
+#seven{
+    height: 250px;
+    width: 200px;
+    background-color: blue;
+    float: left;
+    border: 1px solid black;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+#seven:hover{
+    transform: scale(2,3);
+}
+#eight{
+    height: 250px;
+    width: 200px;
+    background-color: FF004D;
+    float: left;
+    border: 1px solid black;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+#eight:hover{
+    transform: scaleX(4);
+}
+#nine{
+    height: 250px;
+    width: 200px;
+    background-color: 7FC7D9;
+    float: left;
+    border: 1px solid black;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+#nine:hover{
+    transform: scaley(4);
+}
+#ten{
+    height: 250px;
+    width: 200px;
+    background-color: B5C99A;
+    float: left;
+    border: 1px solid black;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+#ten:hover{
+    transform: skew(50deg,60deg);
+}
+#eleven{
+    height: 250px;
+    width: 200px;
+    background-color: 363062;
+    float: left;
+    border: 1px solid black;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+#eleven:hover{
+    transform: skewX(40deg);
+}
+#twelve{
+    height: 250px;
+    width: 200px;
+    background-color: 739072;
+    float: left;
+    border: 1px solid black;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+#twelve:hover{
+    transform: skewy(40deg);
+}
+#thirteen{
+    height: 250px;
+    width: 200px;
+    background-color: 739072;
+    float: left;
+    border: 1px solid black;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+#thirteen:hover{
+    transform: matrix(1,2,10,10,10,4);
+}

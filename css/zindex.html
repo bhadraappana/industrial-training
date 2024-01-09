@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z index</title>
+    <style>
+        .a{
+            height: 400px;
+            width: 400px;
+            background-color: yellow;
+            float: left;
+            position: absolute;
+            left: 50px;
+            top: 50px;
+            z-index:3;
+         }
+        .b{
+            height: 400px;
+            width: 400px;
+            background-color: blue;
+            float: left;
+            position: absolute;
+            left: 130px;
+            top: 70px;
+            z-index:2;
+        }
+        .c{
+            height: 400px;
+            width: 400px;
+            background-color: red;
+            float: left;
+            position: absolute;
+            left: 250px;
+            top: 90px;
+            z-index:1;
+        }
+  </style>
+</head>
+<body>
+    <center><h1>Z-index in css</h1></center>
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="c"></div>
+</body>
+</html>

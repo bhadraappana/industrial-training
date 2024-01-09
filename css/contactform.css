@@ -1,0 +1,201 @@
+#par{
+    height: 100%;
+    width: 100%;
+    background-color: bisque;
+    border: 5px solid black;
+    position: relative;
+}
+#child{
+     height: 500px;
+    width: 800px;
+    background-color:lightgray;
+}
+#sub1{
+        height: 500px;
+       width: 500px;
+       background-color:lightgray;
+       float: left;
+       position: relative;
+}
+#sub2{
+        height: 500px;
+       width: 300px;
+       background-color:FF8989;
+       float: right;
+}
+#loc{
+    height: 500px;
+    width: 300px; 
+}
+#h3{
+    color: black;
+    font-family: "inter";
+    position: absolute;
+    left: 30px;
+    }
+#label{
+    position: absolute;
+    left: 30px;
+    top: 50px;
+    font-size: 15px;
+    font-family: "inter";
+}
+#input{
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    position: absolute;
+    left: 30px;
+    top: 80px;
+}
+#lab{
+    position: absolute;
+    font-size: 15px;
+    font-family: "inter";
+    left:250px;
+    top: 50px;
+}
+#ip{
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    position: absolute;
+    left: 270px;
+    top: 80px;
+}
+#sub{
+    position: absolute;
+    font-size: 15px;
+    font-family: "inter";
+    left:30px;
+    top: 125px;
+}
+#subject{
+    height: 40px;
+    width: 440px;
+    border-radius: 10px;
+    position: absolute;
+    left: 30px;
+    top: 145px;
+}
+#msg{
+    position: absolute;
+    font-size: 15px;
+    font-family: "inter";
+    left:30px;
+    top: 200px;
+}
+#message{
+    height: 150px;
+    width: 450px;
+    border-radius: 10px;
+    position: absolute;
+    left: 30px;
+    top: 220px;
+}
+#send{
+    height: 50px;
+    width: 150px;
+    background-color: blue;
+    border-radius: 10px;
+    position: absolute;
+    left: 30px;
+    top: 400px;
+}
+/*#dot{
+   
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border-radius: 25px;
+    position: absolute;
+    color: white;
+    left: 300px;
+    top: 600px;
+}*/
+#icons{
+    height: 100px;
+    width: 800px;
+    background-color: bisque;
+    position: relative;
+}
+#ic1{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border-radius: 25px;
+    position: absolute;
+    left: 40px;
+    top: 20px;
+}
+#ic{
+    position: absolute;
+    top: 15px;
+    color: white;
+    left: 19px;
+}
+#p{
+    position: absolute;
+    left: 0px;
+    top: 60px;
+}
+#ic2{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border-radius: 25px;
+    position: absolute;
+    left: 250px;
+    top: 20px;
+}
+#ph{
+    position: absolute;
+    top: 15px;
+    color: white;
+    left: 19px;
+}
+#p1{
+    position: absolute;
+    left: 220px;
+    top: 60px;
+}
+#ic3{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border-radius: 25px;
+    position: absolute;
+    left: 480px;
+    top: 20px;
+}
+#p2{
+    position: absolute;
+    left: 430px;
+    top: 60px;
+}
+#ph1{
+    position: absolute;
+    top: 15px;
+    color: white;
+    left: 19px;
+}
+#ic4{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border-radius: 25px;
+    position: absolute;
+    left: 650px;
+    top: 20px;
+}
+#ph2{
+    position: absolute;
+    top: 15px;
+    color: white;
+    left: 19px;
+}
+#p3{
+    position: absolute;
+    left: 640px;
+    top: 80px;
+}
