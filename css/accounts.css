@@ -1,0 +1,260 @@
+#par{
+    height: 600px;
+    width: 1200px;
+    background-color: lightsalmon;
+    margin-top: 40px;
+}
+
+#sub1{
+    height: 600px;
+    width: 400px;
+    background-color: white;
+   float: left;
+   position:relative;
+}
+
+#sub2{
+    height: 600px;
+    width: 800px;
+    background-color: white;
+    float: right;
+    position: relative;
+}
+#sub3{
+    height: 100px;
+    width: 1200px;
+    background-color: white;
+    position: absolute;
+    top: 640px;
+}
+#h1{
+    font-family: "inter";
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    font-size: 25px;
+}
+#reg{
+    position: absolute;
+    left: 700px;
+    font-size: 20px;
+    font-family: "inter";
+}
+#log{
+    color: blue;
+    position: absolute;
+    left: 900px;
+    font-size: 20px;
+    
+}
+#p2{
+    
+    position: absolute;
+    top: 25px;
+    left: 80px;
+    color: darkgray;
+    
+}
+#img{
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    top: 80px;
+    left:0px;
+}
+#h11{
+    font-family: "inter";
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    font-size: 25px;
+}
+#p{
+    position: absolute;
+    top: 450px;
+    left: 30px;
+}
+#in{
+    position:absolute;
+    left: 150px;
+    top: 50px;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    text-align: center;
+}
+#ic1{
+    position: absolute;
+    left:160px;
+    top:67px ;
+}
+#in1{
+    position:absolute;
+    left:450px;
+    top: 50px;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    text-align: center;
+}
+#ic2{
+    position: absolute;
+    left:460px;
+    top:67px ;
+}
+#in2{
+    position:absolute;
+    left:150px;
+    top: 130px;
+    height: 50px;
+    width: 550px;
+    border-radius: 5px;
+    text-align: center;
+}
+#ic3{
+    position: absolute;
+    left:160px;
+    top:146px ;
+}
+#in3{
+    position: absolute;
+    left: 150px;
+    top: 200px;
+    height: 50px;
+    width: 550px;
+     border-radius: 5px;
+     text-align: center;
+}
+#ic4{
+    position: absolute;
+    left:160px;
+    top:220px ;
+}
+#in4{
+    position: absolute;
+    left: 150px;
+    top: 270px;
+    height: 50px;
+    width: 550px;
+     border-radius: 5px;
+     text-align: center;
+}
+#ic5{
+    position: absolute;
+    left:160px;
+    top:290px ;
+}
+#sel{
+    position: absolute;
+    left: 650px;
+    top: 290px;
+}
+#password{
+    position: absolute;
+    left: 150px;
+    bottom:200px;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    text-align: center;
+}
+#ic6{
+    position: absolute;
+    left:160px;
+    top:370px ;
+}
+#word{
+    position: absolute;
+    left: 450px;
+    bottom:200px;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    text-align: center;
+}
+#ic7{
+    position: absolute;
+    left:460px;
+    top:370px ;
+}
+#a{
+    height: 40px;
+    width: 550px;
+    border-radius: 5px;
+    background-color: blue;
+    position: absolute;
+    left: 150px;
+    top: 430px;
+}
+#p5{
+    font-family: "inter";
+    color: white;
+}
+#b{
+    height: 2px;
+    width: 270px;
+    background-color:lightgray;
+    position: absolute;
+    left:150px;
+    bottom: 100px;
+}
+#p6{
+    font-family: "inter";
+    color:black;
+    position: absolute;
+    left: 422px;
+   top:470px;
+}
+#c{
+    height: 2px;
+    width: 260px;
+    background-color: lightgray;
+    position: absolute;
+    left:440px;
+    bottom: 100px;
+}
+#d{
+    height: 40px;
+    width: 550px;
+    border-radius: 5px;
+    background-color: darkblue;
+    position: absolute;
+    left: 150px;
+    top: 510px;
+}
+#p7{
+    font-family: "inter";
+    color: white;
+}
+#face{
+    position: absolute;
+    left: 320px;
+    top: 530px;
+    color: white;
+    background-color: darkblue;
+}
+#e{
+    height: 40px;
+    width: 550px;
+    border-radius: 5px;
+    background-color: aqua;
+    position: absolute;
+    left: 150px;
+    top: 560px;
+    font-family: "inter";
+}
+#twit{
+    color: white;
+    position: absolute;
+    left: 320px;
+    top: 580px;
+}
+#p8{
+    font-family: "inter";
+    color: white;
+}
+@media  screen and  (max-width:600px){
+    #sub1,#sub3{
+     width: 100%;
+    }
+}
