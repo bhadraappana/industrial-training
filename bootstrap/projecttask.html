@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projecttask</title>
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <style>
+            body{
+                background-color: wheat;
+            }
+            #a1{
+                height: 50px;
+                position: relative;
+            }
+            #i1{
+                position: absolute;
+                right: 60px;
+                top: 15px;
+            }
+            #a2{
+                height:40px;
+                width: 40px;
+                border-radius: 20px;
+                background-color: black;
+                position: absolute;
+                top: 5px;
+                right: 10px;
+            }
+            #img1{
+                height:40px;
+                width: 40px;
+                border-radius: 20px;
+            }
+            #a3{
+                margin-top: 10px;
+            }
+            #b1{
+                height: 150px;
+                background-color: blue;
+                position: relative;
+                border-radius: 10px;
+            }
+            #b2{
+                color: white;
+                position: absolute;
+                top: 40px;
+                left: 20px;
+            }
+            #b3{
+                height: 20px;
+                width: 130px;
+                border-radius: 3px;
+                font-size: 12px;
+                text-align: center;
+                background-color: white;
+                color: black;
+                position: absolute;
+                right: 20px;
+                top: 40px;
+            }
+            #c1{
+                height: 130px;
+                background-color: white;
+                position: relative;
+                bottom: 60px;
+                margin-left: 90px;
+                border-radius: 10px;
+            }
+            h6{
+                margin-top: 30px;
+            }
+            .progress{
+                height: 6px;
+                width: 50%;
+                margin-left: 35px;
+                margin-top: 10px;
+            }
+            #p1{
+                color: blue;
+                position: absolute;
+            }
+            #d1{
+                position: relative;
+
+            }
+            button{
+                background-color: aqua;
+                color: white;
+                font-size: 12px;
+                border-radius: 5px;
+            }
+            #e1{
+                height: 20px;
+                width: 20px;
+                border-radius: 10px;
+                float: left;
+               position: absolute; 
+                z-index: 1;
+            }
+            #e2{
+                height: 20px;
+                width: 20px;
+                border-radius: 10px;
+                float: left;
+                position: absolute;
+                margin-left: 10px;
+               z-index: 2;
+            }
+            #e3{
+                height: 20px;
+                width: 20px;
+                border-radius: 10px;
+                float: left;
+                margin-left: 20px;
+                position: absolute;
+               z-index: 3;
+            }
+           
+            #e4{
+                height: 20px;
+                width: 20px;
+                border-radius: 10px;
+                float: left;
+                margin-left: 30px;
+                position: absolute;
+               z-index: 3;
+            }
+            #i2{
+                margin-left: 140px;
+                font-size: 20px;
+            }
+            img{
+                height: 20px;
+                width: 20px;
+                border-radius: 10px;
+            }
+        #img2{
+             height: 20px;
+             width: 20px;
+        }
+        </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 " id="a1"><i class="fa-solid fa-bars" id="a3"></i>
+                <input type="text" placeholder="Search" id="a3">
+                <i class="fa-regular fa-bell" id="i1"></i>
+                <div id="a2"><img id="img1" src="images/b1.png"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12" id="b1">
+                <h5 id="b2">Projects</h5>
+                <div id="b3"><b>Create New Project</b></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2" id="c1">
+                <h6>Projects <i class="fa-solid fa-broom" id="i2"></i></h6>
+                <h4><b>18</b></h4>
+                <p>2 Completed</p>
+            </div>
+            <div class="col-md-2"  id="c1">
+                <h6>Active Task</h6>
+                <h4><b>132</b></h4>
+                <p>28 Completed</p>
+            </div>
+            <div class="col-md-2"  id="c1">
+                <h6>Teams</h6>
+                <h4><b>12</b></h4>
+                <p>1 Completed</p>
+            </div>
+            <div class="col-md-2" id="c1">
+                <h6>Productivity</h6>
+                <h4><b>76%</b></h4>
+                <p>5% Completed</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 bg-info">
+                <b>Active Projects</b>
+            </div>
+        </div>
+        <div class="row bg-primary">
+            <div class="col-md-2">PROJECT NAME</div>
+            <div class="col-md-1 offset-2">HOURS</div>
+            <div class="col-md-1 offset-1">PRIORITY</div>
+            <div class="col-md-1 offset-1">MEMBERS</div>
+            <div class="col-md-2 offset-1">PROGRESS</div>
+        </div>
+        <div class="row bg-info" id="d1">
+            <div class="col-md-2"><img id="img2" src="sq.jpg" >Dropbox Design System</div>
+            <div class="col-md-1 offset-2">34</div>
+            <div class="col-md-1 offset-1"></div>
+            <div class="col-md-1 offset-1">
+                <div id="e1"><img src="b1.jpg"></div>
+                <div id="e2"><img src="b2.jpg"></div>
+                <div id="e3"><img src="b3.jpg"></div>
+                <div id="e4"><img src="more.jpg"></div>
+            </div>
+            <div class="col-md-2 offset-1"><p id="p1">15%</p>
+            <div class="progress">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 15%;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row bg-info" id="d1">
+            <div class="col-md-2"><img id="img2" src="ux.jpg" >Stack Team UI Design</div>
+            <div class="col-md-1 offset-2">47</div>
+            <div class="col-md-1 offset-1"></div>
+            <div class="col-md-1 offset-1">
+                <div id="e1"><img src="b1.jpg"></div>
+                <div id="e2"><img src="b2.jpg"></div>
+                <div id="e3"><img src="b3.jpg"></div>
+                <div id="e4"><img src="more.jpg"></div>
+            </div>
+            <div class="col-md-2 offset-1"><span><p id="p1">35%</p></span>
+            <div class="progress">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 35%;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row bg-info" id="d1">
+            <div class="col-md-2"><img id="img2" src="git.jpg" >GitHub Satellite</div>
+            <div class="col-md-1 offset-2">120</div>
+            <div class="col-md-1 offset-1"><button><b>Low</b></button></div>
+            <div class="col-md-1 offset-1">
+                <div id="e1"><img src="b1.jpg"></div>
+                <div id="e2"><img src="b2.jpg"></div>
+                <div id="e3"><img src="b3.jpg"></div>
+                <div id="e4"><img src="more.jpg"></div>
+            </div>
+            <div class="col-md-2 offset-1"><span><p id="p1">75%</p></span>
+            <div class="progress">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 75%;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row bg-info" id="d1">
+            <div class="col-md-2"><img id="img2" src="3d.jpg" >3D Character Modelling</div>
+            <div class="col-md-1 offset-2">80</div>
+            <div class="col-md-1 offset-1"></div>
+            <div class="col-md-1 offset-1">
+                <div id="e1"><img src="b1.jpg"></div>
+                <div id="e2"><img src="b2.jpg"></div>
+                <div id="e3"><img src="b3.jpg"></div>
+                <div id="e4"><img src="more.jpg"></div>
+            </div>
+            <div class="col-md-2 offset-1"><span><p id="p1">63%</p></span>
+            <div class="progress">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 63%;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row bg-info" id="d1">
+            <div class="col-md-2"><img id="img2" src="ux.jpg" >Webapp Design System</div>
+            <div class="col-md-1 offset-2">108</div>
+            <div class="col-md-1 offset-1"></div>
+            <div class="col-md-1 offset-1">
+                <div id="e1"><img src="b1.jpg"></div>
+                <div id="e2"><img src="b2.jpg"></div>
+                <div id="e3"><img src="b3.jpg"></div>
+                <div id="e4"><img src="more.jpg"></div>
+            </div>
+            <div class="col-md-2 offset-1"><span><p id="p1">100%</p></span>
+            <div class="progress">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 100%;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row bg-info" id="d1">
+            <div class="col-md-2"><img id="img2" src="git.jpg" >GitHub Event Design</div>
+            <div class="col-md-1 offset-2">120</div>
+            <div class="col-md-1 offset-1"><button><b>Low</b></button></div>
+            <div class="col-md-1 offset-1">
+                <div id="e1"><img src="b1.jpg"></div>
+                <div id="e2"><img src="b2.jpg"></div>
+                <div id="e3"><img src="b3.jpg"></div>
+                <div id="e4"><img src="more.jpg"></div>
+            </div>
+            <div class="col-md-2 offset-1"><span><p id="p1">75%</p></span>
+            <div class="progress">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 75%;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
