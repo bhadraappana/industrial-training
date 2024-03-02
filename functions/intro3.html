@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<label>name:</label>
+<input type="text" id="ip1">
+<button onclick="func()">click</button><br>
+<label>password:</label>
+<input type="password" id="ip2">
+<button onclick="func2()">click</button><br>
+<label>confirm password:</label>
+<input type="password" id="ip3">
+<button onclick="func3()">click</button>
+    <script>
+        function func(){
+         const name=document.getElementById('ip1').value;
+        if(name.length==0){
+         alert('please fill this input with some value')
+        }
+        else{
+            console.log('the entered value is' + name)
+        }
+        }
+        function func2(){
+            const password=document.getElementById('ip2').value;
+            if(password.length<8){
+                alert('enter more than 8 characters')
+            }
+        }
+        function func3(){
+            const cpwrd=document.getElementById('ip2').value;
+            const password=document.getElementById('ip3').value;
+            if(cpwrd==password){
+                alert('you entered correct password you can proceed now!')
+            }
+            else{
+                alert('wrong password!try again')
+            }
+        }
+    </script>
+</body>
+</html>

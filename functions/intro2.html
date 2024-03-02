@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <span id="si"></span>
+    <input type="text" id="ip" autofocus>
+    <button onclick="bhadra()">click</button>
+    <script>
+        // function bhadra(){
+        //     let hello=document.getElementById('ip').value;
+        //     document.getElementById('si').innerText=hello;
+        // }
+        // sub()
+        // function sub(a,b){
+        //     console.log(a-b)
+         
+         const add=(a,b) =>{
+             document.write(a+b)
+           }
+         add(false,'false')// the output is falsefalse
+         add(true,'false')// output is truefalse
+         add(true,'0') //output is20
+         add(1,' false')// output is 1false
+         add(true,' false')// output is truefalse
+         add(10,'10',true)// output is 1010true
+        //  setTimeout(() => {
+        //     document.write('after 3 seconds')
+        //  },3000);
+         setTimeout(test,8000)
+         function test (){
+            document.write('after 8 seconds')
+         }
+           </script>
+</body>
+</html>
